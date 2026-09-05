@@ -1,0 +1,23 @@
+{
+  "name": "week2-mern-backend",
+  "version": "1.0.0",
+  "description": "Week 2 - Backend Development (Node.js, Express.js, MongoDB): To-Do List REST API, User Authentication API, and Notes App Backend mini project.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["mern", "express", "mongodb", "jwt", "rest-api"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
